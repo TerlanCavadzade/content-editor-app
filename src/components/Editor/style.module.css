@@ -1,0 +1,29 @@
+.editorContainer{
+    display: flex;
+    flex-direction: column;
+
+    padding: 1rem;
+
+}
+
+.editorContainer > ul {
+    list-style: none;
+}
+
+.actions {
+    margin-top: auto;
+}
+
+.actions > button{
+    width: 100%;
+    height: 3rem;
+    text-transform: uppercase;
+}
+
+.history{
+    display: flex;
+    gap: 1rem;
+}
+.history > button{
+    flex: 1;
+}

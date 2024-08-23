@@ -1,0 +1,9 @@
+.formContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.submitBtn{
+    margin-top: auto;
+}

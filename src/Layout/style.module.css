@@ -1,0 +1,15 @@
+.mainContainer{
+    display: flex;
+    gap: 1rem;
+    padding: 1rem;
+    min-height: 100vh;
+
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.mainContainer > *{
+    flex: 1;
+    flex-basis: 30rem;
+    border: 2px solid rgb(61, 61, 61);
+}
